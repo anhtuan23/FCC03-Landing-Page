@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    background-color: white;
+}
+
+#engnite-logo {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    margin-left: 50px;
+}
+
+#header-img {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-self: center;
+}
+
+#nav-bar {
+    justify-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-link {
+    padding: 10px;
+    flex-basis: 200px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.3em;
+}
+
+a.nav-link {
+    text-align: center;
+}
