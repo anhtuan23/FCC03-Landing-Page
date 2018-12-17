@@ -15,14 +15,14 @@ body {
     background-color: #e3f2fd;
 }
 
-#engnite-logo {
+#header-img {
     display: block;
     max-width: 120px;
     height: auto;
     margin-left: 50px;
 }
 
-#header-img {
+#header-img-container {
     flex-basis: 300px;
     flex-grow: 1;
     flex-shrink: 0;
@@ -118,7 +118,7 @@ form input.item{
     min-width: 250px;
 }
 
-form button.item{
+form input.button{
     font-size: 1.2em;
     background-color: #2196f3;
     padding: 10px;
