@@ -1,18 +1,18 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #e3f2fd;
 }
 
 #header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 20px;
-    padding-bottom: 0;
+    padding: 10px;
     position: -webkit-sticky;
     position: sticky;
     top: -1px;
-    background-color: white;
+    background-color: #e3f2fd;
 }
 
 #engnite-logo {
@@ -43,10 +43,103 @@ body {
     flex-shrink: 1;
     flex-grow: 1;
     text-decoration: none;
-    color: gray;
+    color: rgb(88, 88, 88);
     font-size: 1.3em;
 }
 
 a.nav-link {
     text-align: center;
+}
+
+.section{
+    margin: 20px 0;
+}
+
+#engnite-banner{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.icon{
+    width: 70px;
+    margin: 10px;
+    height: auto;
+    flex-basis: 50px;
+    flex-shrink: 10;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.wwa-item-text{
+    flex-basis: 500px;
+    flex-shrink: 1;
+}
+
+.wwa-item-text .title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+@media (max-width: 700px){
+    img.icon{
+        visibility: hidden;
+    }
+    .wwa-item-text{
+        text-align: center;
+    }
+}
+
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form .item{
+    margin: 5px;
+}
+
+form label.item{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+form input.item{
+    padding: 5px;
+    min-width: 250px;
+}
+
+form button.item{
+    font-size: 1.2em;
+    background-color: #2196f3;
+    padding: 10px;
+    border: 0;
+}
+
+
+footer{
+    text-align: right;
+    background-color: #c6e7ff;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+footer div{
+    font-size: 0.9em;
+    padding: 3px;
 }

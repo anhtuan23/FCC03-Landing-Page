@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,58 +8,79 @@
     <link rel="stylesheet" href="main.css">
     <title>Product Landing Page FCC03</title>
 </head>
+
 <body>
     <header id="header">
         <div id="header-img">
             <img src="images/engnite-logo.png" alt="Engnite Logo" id="engnite-logo">
         </div>
         <nav id="nav-bar">
-            <a href="#" class="nav-link">Who we are</a>
-            <a href="#" class="nav-link">Our students</a>
-            <a href="#" class="nav-link">Enroll now</a>
+            <a href="#who-we-are" class="nav-link">Who we are</a>
+            <a href="#our-students" class="nav-link">Our students</a>
+            <a href="#enroll-now" class="nav-link">Enroll now</a>
         </nav>
     </header>
-
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
-    <p>1</p>
+    <div class="section">
+        <img src="images/engnite-banner.jpg" alt="Engnite classroom" id="engnite-banner">
+    </div>
+    <div class="flex-center section" id="who-we-are">
+        <div id="who-we-are">
+            <div class="flex-center wwa-item">
+                <img src="images/gesture-tap.png" alt="" class="icon">
+                <div class="wwa-item-text">
+                    <p class="title">
+                        Interactive Environment
+                    </p>
+                    <p class="summary">
+                        Maecenas at lacus ante. In laoreet tortor quis velit pretium convallis. Etiam cursus, augue non
+                        accumsan molestie, massa mauris consectetur leo, vitae lobortis dolor urna in dolor.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-center wwa-item">
+                <img src="images/palette.png" alt="" class="icon">
+                <div class="wwa-item-text">
+                    <p class="title">
+                        Fun and Creative
+                    </p>
+                    <p class="summary">
+                        Vestibulum malesuada imperdiet leo, vel accumsan sem pharetra at. Donec non urna sed purus
+                        egestas tincidunt non at risus. Vivamus neque ligula, condimentum vel sollicitudin eget,
+                        ultrices aliquet lectus. Nullam vitae sem vel metus lobortis dictum id quis erat.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-center wwa-item">
+                <img src="images/auto-fix.png" alt="" class="icon">
+                <div class="wwa-item-text">
+                    <p class="title">
+                        Outstanding achievement
+                    </p>
+                    <p class="summary">
+                        Cras non aliquet neque. Donec rhoncus risus ipsum, eu feugiat velit aliquet et. Cras venenatis
+                        sem arcu, vel iaculis felis eleifend sit amet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex-center section"  id="our-students">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8sVJQ8UbniE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="flex-center section" id="enroll-now">
+        <form action="https://www.freecodecamp.org/email-submit" method="POST" name="enroll-email" class="form-flex" id="form">
+            <label for="email" class="item">Start your Journey today, enroll now!</label>
+            <input type="email" placeholder="Enter you email" id="email" class="item">
+            <button type="submit" class="item" id="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+        <div>Copyright 2018, Engnite</div>
+        <div>Coded by <a href="#">Do Tuan Anh</a></div>
+    </footer>
 </body>
+
 </html>
